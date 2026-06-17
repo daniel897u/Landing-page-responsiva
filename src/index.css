@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-sand-50: #FAF9F6;
+  --color-sand-100: #F4F1EA;
+  --color-sand-200: #EBE7DD;
+  --color-sand-300: #D6D0C2;
+  --color-sand-400: #C2BAAA;
+  --color-sand-800: #46413A;
+  --color-sand-900: #2D2926;
+
+  --color-olive-50: #F6F6F3;
+  --color-olive-100: #E2E3DA;
+  --color-olive-200: #C5C7B5;
+  --color-olive-500: #5B5E45;
+  --color-olive-600: #4F513B;
+  --color-olive-700: #424431;
+  --color-olive-900: #222319;
+
+  --color-burnt-50: #FDF5F1;
+  --color-burnt-100: #FAE4D9;
+  --color-burnt-500: #CB6633;
+  --color-burnt-600: #B35626;
+  --color-burnt-700: #914119;
+}
+
+/* Custom organic and soft aesthetic additions from Editorial Theme */
+.soft-pill {
+  border-radius: 120px;
+}
+
+.organic-border {
+  border-radius: 40% 60% 60% 40% / 30% 30% 70% 70%;
+}
+
+/* Custom scrollbar and subtle layout patterns */
+body {
+  background-color: var(--color-sand-100);
+  color: var(--color-sand-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-olive-200);
+  color: var(--color-olive-900);
+}
+
+/* Custom smooth transitions */
+.smooth-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+

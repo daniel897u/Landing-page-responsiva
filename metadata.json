@@ -1,0 +1,6 @@
+{
+  "name": "Raízes",
+  "description": "Um site contemporâneo para um restaurante de comida tradicional, equilibrando modernidade e calor humano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
